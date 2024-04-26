@@ -1,0 +1,208 @@
+.menu{
+	display: none;
+}
+
+.top, .men_bot{
+	display: none;
+}
+
+body{
+	color: black;
+	background-color: white;
+}
+
+.contact{
+	background-color: white;
+}
+
+.home_text{
+	color: black;
+}
+
+.fam, .hobbies, .ethic{
+	background-color: white;
+	border-color: black;
+}
+
+.strat, .glory, .more_exp{
+	background-color: white;
+	border-color: black;
+}
+
+.line_exp{
+	color: black;
+}
+
+.c_1, .c_2, .c_3, .c_4{
+    background-color: white;
+    border-color: black;
+    border-style: dashed;
+}
+
+.more_courses{
+	border-color: black;
+	background-color: white;
+}
+
+.c_1_2, .c_2_2 {
+	background-color: white;
+	border-color: black;
+}
+
+img {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+
+a{
+	color: black;
+}
+
+
+
+
+.contact{
+	width: 200px;
+	height: 120px;
+	font-size: 13px;
+	margin-left: 42%;
+}
+
+.contacts{
+	margin-left: -17%;
+}
+
+h1{
+	font-size: 50px;
+	margin-left: 7%;
+	float: none;
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+}
+
+.menu{
+	font-size: 20px;
+}
+
+.menu_li{
+    display: block;
+	text-align: center;
+	margin-right: 10%;
+}
+
+.here_li{
+	margin-right: 10%;
+}
+.p1{
+	display: block;
+	margin-top: -2%;
+	margin-bottom: -2%;
+	margin-right: 10%;
+}
+
+.headshot_image{
+	float: none;
+	margin-left: 27%;
+}
+
+.home_text{
+	text-align: center;
+	margin-left: 2%;
+}
+
+.about_header{
+	font-size: 30px;
+}
+
+.courses_header{
+	font-size: 30px;
+	width: fit-content;
+}
+
+.info{
+	display: block;
+	width: 112%;
+	margin-left: -6%;
+}
+
+.fam, .hobbies{
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+
+.stratosphere_img, .glory_img, .church_img{
+	max-width: 300px;
+	float: none;
+	margin-left: 37%;
+}
+
+.exp_header{
+	font-size: 20px;
+}
+
+.exp_text{
+	text-align: center;
+	margin-left: 2%;
+}
+
+.more_exp_text{
+	text-align: center;
+	margin-left: 2%;
+	margin-bottom: 5%;
+}
+
+.rotoImg{
+    width:  200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.slides{
+	float: none;
+	margin-left: 35%;
+}
+
+.pic_caption{
+	text-align: center;
+}
+
+.slides_exp{
+    text-align: center;
+	margin-left: 2%;
+}
+
+.classes{
+    text-align:center;
+    margin-left: 4%;
+    display: block;
+    width: 96%;
+    margin-bottom: 7%;
+}
+
+.classes_2{
+	text-align:center;
+    margin-left: 4%;
+    display: block;
+    width: 96%;
+    margin-bottom: 7%;
+	width: 565px;
+}
+
+.c_1, .c_2, .c_3, .c_4{
+    margin-bottom: 2%;
+}
+
+.more_courses{
+	width: 300px;
+	margin-left: 1%;
+}
+
+.c_1_2{
+	margin-bottom: 2%;
+}
+
+.dots{
+	margin-left: 22%;
+}

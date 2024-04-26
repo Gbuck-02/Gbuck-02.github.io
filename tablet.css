@@ -1,0 +1,86 @@
+.contact{
+	width: 175px;
+	height: 120px;
+	font-size: 13px;
+}
+
+h1{
+	font-size: 50px;
+	margin-left: 7%;
+	margin-top: 4%;
+}
+
+.contacts{
+	margin-left: -17%;
+}
+
+.menu{
+	font-size: 18px;
+	margin-left: -6%;
+}
+
+.headshot_image{
+	float: none;
+	margin-left: 15%;
+}
+
+.home_text{
+	margin-left: 0%;
+}
+
+.stratosphere_img, .glory_img, .church_img{
+	max-width: 250px;
+}
+
+.exp_text{
+	margin-left: 40%;
+	font-size: 15px;
+}
+
+.more_exp_text{
+	font-size: 15px;
+	margin-left: 39%;
+}
+
+.slides_exp{
+    margin-left: 33%;
+    margin-right: 2%;
+    margin-bottom: 33%;
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+.rotoImg{
+    width:  250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.classes{
+    text-align:center;
+    margin-left: 25px;
+    display: block;
+    width: 96%;
+    margin-bottom: 7%;
+}
+
+.classes_2{
+	margin-left: 25px;
+}
+
+.c_1, .c_2, .c_3, .c_4{
+    margin-bottom: 2%;
+}
+
+.about_header{
+	font-size: 40px;
+}
+
+.courses_header{
+	font-size: 30px;
+}
+
+.mount_img{
+	width: 190px;
+	height: 190px;
+}

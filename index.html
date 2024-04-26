@@ -1,28 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="javascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="full_screen.css" media="screen and (max-width:1024px) and (min-width:769px)" >
+		<link rel="stylesheet" type="text/css" href="tablet.css" media="screen and (max-width:768px) and (min-width:481px)" >
+		<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width:480px)" >
+		<link rel="stylesheet" type="text/css" href="print.css" media="print" > 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
     </head>
 
-    <header>
-        <h1>
-            Who is Garrett Buck?
-        </h1>
-    </header>
-
     <body>
-        <p>Hi there I am a junior at Mount St. Mary's University</p>
+
+        <header>
+            <h1>
+                Who is Garrett Buck?
+            </h1>
+            <br>
+            <div class = contact>
+            <h2>
+                Contact Info:
+            </h2>
+            <ul class = contacts>
+                <li>Email: g.k.buck AT email DOT msmary DOT edu</li>
+                <li><a href="https://www.linkedin.com/in/garrett-buck-a352b1281" onclick="changeWord()" target="_blank">LinkedIn: click here</a></li>
+                <li id = "link"></li>
+            </ul>
+            </div>
+        </header>
+
+        <hr class="top">
+        <ul class="menu">
+            <li class="here_li"><a href="index.html">Who is Garrett Buck</a></li>
+            <li class="p1">·</li>
+            <li class="menu_li"><a href="about.html">More About Me</a></li>
+            <li class="p1">·</li>
+            <li class="menu_li"><a href="experience.html">Work Experience</a></li>
+            <li class="p1">·</li>
+            <li class="menu_li"><a href="cs.html">Computer Science Courses</a></li>
+            <li class="p1">·</li>
+            <li class="menu_li"><a href="art.html">Art Courses</a></li>
+        </ul>
+        <hr class="men_bot">
+        <img id="headshot_img" class="headshot_image" src="headshot.jpg" alt="Headshot of Garrett Buck">
+
+        <p class="home_text" id="test">Hello and welcome to my website! 
+            <br>
+            <br>
+            My name is Garrett Buck I am a junior at Mount St. Mary's
+            University. My major is in computer science and my minor is in visual art. This website serves as a tool to gain
+            more knowledge about who I am. Under the different tabs you can find more info about me, more details about my
+            previous work experience, computer science courses I have taken, and art courses I have taken.
+        </p>
+
+        <hr class="bottom">
+
+        <footer> 
+            Copyright &copy; 4/14/2024 
+        </footer>
+
     </body>
-
-
-
-
-
-
-
-
-
-
-
 
 </html>

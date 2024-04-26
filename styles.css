@@ -1,0 +1,387 @@
+/*styling for the home page and menu*/
+.headshot_image{
+    border-style: groove;
+    border-radius: 5px;
+    border-width: 10px;
+    width: 500px;
+    margin-top: 50px;
+    float: left;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(249, 234, 212);
+    color: rgb(13, 13, 78);
+}
+
+h1{
+    font-size: 60px;
+    float: left;
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 2%;
+}
+
+h2{
+    margin-bottom: -10px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: -10px;
+    margin-right: 3%;
+    background-color: rgb(235, 214, 178);
+    margin-left: 77%;
+    border-style: dotted;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(55, 70, 140);
+}
+
+.menu_li{
+    display: inline;
+}
+
+.menu_li:hover {
+	background-color: rgb(201, 203, 201); 
+	border-radius: 5px;
+}
+
+.here_li{
+    display: inline;
+    background-color: rgb(206, 206, 238);
+    border-radius: 5px;
+}
+
+.here_li:hover {
+	background-color: rgb(201, 203, 201); 
+	border-radius: 5px;
+}
+
+.p1{
+    display: inline;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contacts{
+    list-style-type: none;
+    margin-right: 12%;
+}
+
+.top{
+    margin-top: 30px;
+}
+
+hr{
+    border: 1px solid;
+    border-style: dotted;
+    color: rgb(13, 13, 78);
+}
+
+.home_text{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
+    margin-left: 37%;
+    margin-right: 2%;
+    color: rgb(70, 69, 104);
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    align-content: end;
+    margin-top: 10px;
+}
+
+.bottom{
+    align-content: end;
+    margin-top: 170px;
+    border: .5px solid;
+    color: rgba(13, 13, 78, 0.347);
+}
+
+/*styling for the about me page*/
+.fam{
+    top: 0;
+    vertical-align: text-top;
+    width: 50%;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(219, 224, 228);
+    border-color: blue;
+    border-style: dashed;
+}
+
+.hobbies{
+    top: 0;
+    vertical-align: text-top;
+    width: 50%;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(219, 224, 228);
+    border-color: blue;
+    border-style: dashed;
+}
+
+.ethic{
+    text-align: center;
+    background-color: rgb(219, 224, 228);
+    border-color: blue;
+    border-style: dashed;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5%;
+}
+
+.info{
+    text-align:center;
+    margin:auto;
+    padding:20px;
+    display: flex;
+    width: 90%;
+    margin-left: 4%;
+}
+
+.about_header{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.inside_ethic{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*styling for the work experience page*/
+.stratosphere_img{
+    border-radius: 5px;
+    border-width: 10px;
+    width: 500px;
+    float: left;
+    margin-left: 20px;
+}
+
+.strat{
+    background-color: rgb(215, 223, 235);
+    border-color: rgb(56, 56, 104);
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.exp_text{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 37%;
+    font-size: 20px;
+}
+
+.exp_header{
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+.line_exp{
+    border: 1.5px solid;
+    color: rgb(13, 13, 78);
+}
+
+.pic_caption{
+    text-align: left;
+    margin-left: 15px;
+    font-size: small;
+}
+
+.glory{
+    background-color: rgb(215, 223, 235);
+    border-color: rgb(56, 56, 104);
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.glory_img{
+    border-radius: 5px;
+    border-width: 10px;
+    width: 500px;
+    float: left;
+    margin-left: 20px;
+}
+
+.more_exp{
+    background-color: rgb(215, 223, 235);
+    border-color: rgb(56, 56, 104);
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.church_img{
+    border-radius: 5px;
+    border-width: 10px;
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+}
+
+.more_exp_text{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 25%;
+    font-size: 20px;
+    margin-right: 2%;
+}
+
+#church_pic{
+    margin-bottom: 2%;
+}
+
+.slides_exp{
+    margin-left: 25%;
+    margin-right: 2%;
+    margin-bottom: 22%;
+    margin-top: 6%;
+    font-size: 20px;
+}
+
+/*styling for the cs and art courses pages*/
+.classes{
+    text-align:center;
+    margin-left: 70px;
+    display: flex;
+    width: 95%;
+    margin-bottom: 7%;
+}
+
+.c_1, .c_2, .c_3, .c_4{
+    margin-right: 3%;
+    background-color: rgb(219, 224, 228);
+    border-color: blue;
+    border-style: dashed;
+}
+
+.class_text{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.courses_header{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.more_courses{
+    text-align: center;
+    background-color: rgb(219, 224, 228);
+    margin-left: 35%;
+    margin-right: 35%;
+    border-style: dashed;
+    border-color: blue;
+}
+
+.mount_img{
+    width: 200px;
+    margin-top: 2%;
+}
+
+.classes_2{
+    text-align:center;
+    margin-left: 70px;
+    display: flex;
+    width: 95%;
+    margin-bottom: 7%;
+}
+
+.c_1_2, .c_2_2 {
+    margin-right: 3%;
+    background-color: rgb(219, 224, 228);
+    border-color: blue;
+    border-style: dashed;
+    width: 50%;
+}
+
+/*styling for the slideshow*/
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  max-height: 400px;
+  position: relative;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dots{
+    margin-left: 40%; 
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.rotoImg{
+    width:  300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.slides{
+    float: left;
+    margin-left: 1.5%;
+}

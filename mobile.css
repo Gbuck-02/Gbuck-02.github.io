@@ -1,0 +1,142 @@
+.contact{
+	width: 200px;
+	height: 120px;
+	font-size: 13px;
+	margin-left: 20%;
+}
+
+.contacts{
+	margin-left: -17%;
+}
+
+h1{
+	font-size: 50px;
+	margin-left: 7%;
+	float: none;
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+}
+
+.menu{
+	font-size: 20px;
+}
+
+.menu_li{
+    display: block;
+	text-align: center;
+	margin-right: 10%;
+}
+
+.here_li{
+	margin-right: 10%;
+}
+.p1{
+	display: block;
+	margin-top: -2%;
+	margin-bottom: -2%;
+	margin-right: 10%;
+}
+
+.headshot_image{
+	float: none;
+	width: 275px;
+	margin-left: 5%;
+}
+
+.home_text{
+	text-align: center;
+	margin-left: 2%;
+}
+
+.about_header{
+	font-size: 30px;
+}
+
+.courses_header{
+	font-size: 30px;
+	width: fit-content;
+}
+
+.info{
+	display: block;
+	width: 112%;
+	margin-left: -6%;
+}
+
+.fam, .hobbies, .ethic{
+	width: 98%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.stratosphere_img, .glory_img, .church_img{
+	max-width: 250px;
+	float: none;
+	margin-left: 6%;
+}
+
+.exp_header{
+	font-size: 20px;
+}
+
+.exp_text{
+	text-align: center;
+	margin-left: 2%;
+}
+
+.more_exp_text{
+	text-align: center;
+	margin-left: 2%;
+	margin-bottom: 20%;
+}
+
+.rotoImg{
+    width:  200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.slides{
+	float: none;
+	margin-right: 2%;
+}
+
+.pic_caption{
+	text-align: center;
+}
+
+.slides_exp{
+    text-align: center;
+	margin-left: 2%;
+}
+
+.classes{
+    text-align:center;
+    margin-left: 4%;
+    display: block;
+    width: 96%;
+    margin-bottom: 7%;
+}
+
+.classes_2{
+	text-align:center;
+    margin-left: 4%;
+    display: block;
+    width: 96%;
+    margin-bottom: 7%;
+	width: 565px;
+}
+
+.c_1, .c_2, .c_3, .c_4{
+    margin-bottom: 2%;
+}
+
+.more_courses{
+	width: 300px;
+	margin-left: 1%;
+}
+
+.c_1_2{
+	margin-bottom: 2%;
+}
